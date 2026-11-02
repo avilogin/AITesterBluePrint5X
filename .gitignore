@@ -1,0 +1,5 @@
+# Only the folders listed below are tracked; everything else in D:\Playwright stays local.
+# To publish another chapter, add a line like: !/Chapter_03_Name/
+/*
+!/.gitignore
+!/Chapter_02_Prompt_Engineering/
