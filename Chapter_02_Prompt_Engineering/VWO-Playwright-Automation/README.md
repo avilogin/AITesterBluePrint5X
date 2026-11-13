@@ -11,6 +11,7 @@ pages/LoginPage.ts          Page Object: XPath locators, actions, error context
 fixtures/test-fixtures.ts   loginPage fixture, failure diagnostics, mockLoginResponse()
 utils/test-data.ts          env config, verified messages/URLs/server responses, test data
 utils/prd.ts                traceToPrd(): links a test to a PRD section in Allure
+docs/Test_Case_Evaluation_RICEPOT.md  RICEPOT test cases with vs without anti-hallucination rules
 tests/login-valid.spec.ts   positive / UI / accessibility / security scenarios
 tests/login-invalid.spec.ts negative / authentication-failure scenarios
 ```
