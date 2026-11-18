@@ -1,0 +1,6 @@
+{
+  "buildCommand": "",
+  "outputDirectory": "src/frontend",
+  "rewrites": [{ "source": "/api/(.*)", "destination": "/api" }],
+  "functions": { "api/index.js": { "includeFiles": "src/backend/TestCase_Template.md", "maxDuration": 60 } }
+}

@@ -1,0 +1,7 @@
+{
+  "name": "test-strategy-builder",
+  "private": true,
+  "type": "module",
+  "scripts": { "start": "node src/backend/server.js" },
+  "dependencies": { "express": "^4.21.2" }
+}

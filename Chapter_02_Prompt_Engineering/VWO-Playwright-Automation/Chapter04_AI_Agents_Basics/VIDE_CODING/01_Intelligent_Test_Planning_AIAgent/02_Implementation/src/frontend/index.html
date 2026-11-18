@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Test Plan Generator</title>
+  <style>
+    body { font-family: system-ui, sans-serif; margin: 0; background: #f5f6f8; color: #222; }
+    nav { display: flex; gap: 8px; padding: 12px 20px; background: #fff; border-bottom: 1px solid #ddd; }
+    nav b { margin-right: auto; }
+    main { max-width: 900px; margin: 20px auto; padding: 0 16px; }
+    .box { background: #fff; border: 1px solid #ccc; border-radius: 12px; padding: 16px; margin-bottom: 16px; }
+    .reply { min-height: 360px; overflow-x: auto; }
+    .reply table { border-collapse: collapse; } .reply td, .reply th { border: 1px solid #ccc; padding: 4px 8px; }
+    input, select { padding: 8px; border: 1px solid #bbb; border-radius: 8px; width: 100%; box-sizing: border-box; margin: 4px 0 10px; }
+    button { padding: 8px 14px; border: 0; border-radius: 8px; background: #2563eb; color: #fff; cursor: pointer; }
+    button:disabled { opacity: .5; } button.tab { background: #eee; color: #222; } button.tab.on { background: #2563eb; color: #fff; }
+    .row { display: flex; gap: 8px; } .row input { margin: 0; }
+    .err { color: #b91c1c; } .ok { color: #15803d; } .muted { color: #777; }
+  </style>
+</head>
+<body>
+  <div id="root"></div>
+  <script src="https://unpkg.com/react@18.3.1/umd/react.production.min.js"></script>
+  <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.production.min.js"></script>
+  <script src="https://unpkg.com/htm@3.1.1/dist/htm.umd.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/marked@12.0.2/marked.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/dompurify@3.1.6/dist/purify.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

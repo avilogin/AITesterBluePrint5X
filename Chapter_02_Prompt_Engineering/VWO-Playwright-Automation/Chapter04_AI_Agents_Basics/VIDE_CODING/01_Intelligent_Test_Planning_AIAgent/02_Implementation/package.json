@@ -1,0 +1,7 @@
+{
+  "name": "jira-test-plan-generator",
+  "private": true,
+  "type": "module",
+  "scripts": { "start": "node src/backend/server.js" },
+  "dependencies": { "express": "^4.21.2" }
+}
